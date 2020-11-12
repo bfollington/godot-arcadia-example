@@ -1,0 +1,9 @@
+<Project Sdk="Godot.NET.Sdk/3.2.3">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>ArcadiaTest</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArcadiaGodot/Infrastructure/**/*.dll"></Reference>
+  </ItemGroup>
+</Project>

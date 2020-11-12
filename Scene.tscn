@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ArcadiaGodot/ArcadiaHook.cs" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 1, 0 )
+
+[node name="hook" type="Node" parent="."]
+script = ExtResource( 1 )
+process_fn = "#'bf/foo-update"
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
